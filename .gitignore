@@ -19,3 +19,7 @@ Makefile
 
 # OS
 .DS_Store
+
+# Compiled executables
+*.out
+*.exe
