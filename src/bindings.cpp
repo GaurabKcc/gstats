@@ -2,6 +2,7 @@
 #include <pybind11/stl.h>
 
 #include "average.hpp"
+#include "median.hpp"
 
 namespace py = pybind11;
 
@@ -13,5 +14,11 @@ PYBIND11_MODULE(statslib, m)
         "average",
         &avg,
         "Calculate the arithmetic mean of a list of numbers."
+    );
+
+    m.def(
+        "median",
+        &median,
+        "Calculate the median from a list of numbers."
     );
 }
