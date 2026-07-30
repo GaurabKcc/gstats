@@ -1,4 +1,4 @@
-# Gstats
+# gstats
 
 A lightweight statistics library written in **C++** with **Python bindings** using **pybind11**.
 
