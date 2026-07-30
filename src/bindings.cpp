@@ -7,7 +7,7 @@
 
 namespace py = pybind11;
 
-PYBIND11_MODULE(statslib, m)
+PYBIND11_MODULE(gstats, m)
 {
     m.doc() = "Statistics library";
 

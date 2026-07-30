@@ -6,7 +6,7 @@ requires = [
 build-backend = "scikit_build_core.build"
 
 [project]
-name = "gaurabstats"
+name = "gstats"
 version = "0.1.0"
 description = "Statistics library written in C++ using pybind11"
 readme = "README.md"

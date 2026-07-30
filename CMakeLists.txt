@@ -7,13 +7,13 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(pybind11 REQUIRED)
 
-pybind11_add_module(statslib
+pybind11_add_module(gstats
     src/average.cpp
     src/median.cpp
     src/bindings.cpp
     src/mode.cpp
 )
 
-target_include_directories(statslib PRIVATE include)
+target_include_directories(gstats PRIVATE include)
 
-install(TARGETS statslib LIBRARY DESTINATION .)
+install(TARGETS gstats LIBRARY DESTINATION .)
