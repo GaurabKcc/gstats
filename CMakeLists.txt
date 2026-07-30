@@ -11,6 +11,7 @@ pybind11_add_module(statslib
     src/average.cpp
     src/median.cpp
     src/bindings.cpp
+    src/mode.cpp
 )
 
 target_include_directories(statslib PRIVATE include)

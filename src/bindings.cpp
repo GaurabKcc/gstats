@@ -3,6 +3,7 @@
 
 #include "average.hpp"
 #include "median.hpp"
+#include "mode.hpp"
 
 namespace py = pybind11;
 
@@ -20,5 +21,10 @@ PYBIND11_MODULE(statslib, m)
         "median",
         &median,
         "Calculate the median from a list of numbers."
+    );
+    m.def(
+        "mode",
+        &mode,
+        "Calculate the mode from a list of numbers."
     );
 }
