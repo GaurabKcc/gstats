@@ -22,7 +22,7 @@ Gstats is designed to provide fast and reliable statistical functions while serv
 | ---------------------- | -------------------------------------------------- | :----: |
 | `average()`            | Computes the arithmetic mean of a list of numbers. |    ✅   |
 | `median()`             | Computes the median of a list of numbers.          |    ✅   |
-| `mode()`               | Computes the mode of a list of numbers.            |   🚧   |
+| `mode()`               | Computes the mode of a list of numbers.            |    ✅  |
 | `variance()`           | Computes the variance.                             |    ⏳   |
 | `standard_deviation()` | Computes the standard deviation.                   |    ⏳   |
 | `range()`              | Computes the numerical range.                      |    ⏳   |
