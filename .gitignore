@@ -23,3 +23,7 @@ Makefile
 # Compiled executables
 *.out
 *.exe
+
+# Editors
+*.swp
+*.swo
