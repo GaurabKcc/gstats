@@ -12,6 +12,7 @@ pybind11_add_module(gstats
     src/median.cpp
     src/bindings.cpp
     src/mode.cpp
+    src/quartile.cpp
 )
 
 target_include_directories(gstats PRIVATE include)

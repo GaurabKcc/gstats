@@ -4,6 +4,7 @@
 #include "average.hpp"
 #include "median.hpp"
 #include "mode.hpp"
+#include "quartile.hpp"
 
 namespace py = pybind11;
 
@@ -26,5 +27,10 @@ PYBIND11_MODULE(gstats, m)
         "mode",
         &mode,
         "Calculate the mode from a list of numbers."
+    );
+    m.def(
+        "quartile",
+        &quartile,
+        "Calculate the nth quartile from a list of numbers."
     );
 }
